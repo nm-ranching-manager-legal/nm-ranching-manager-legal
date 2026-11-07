@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade - NM Ranching Manager</title>
+  <style>
+    :root {
+      --primary: #1b4332;
+      --primary-light: #2d6a4f;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 850px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+      border: 1px solid var(--border);
+    }
+    h1 {
+      color: var(--primary);
+      font-size: 2.2rem;
+      margin-top: 0;
+      margin-bottom: 8px;
+      border-bottom: 3px solid var(--primary-light);
+      padding-bottom: 12px;
+    }
+    .meta {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: var(--primary-light);
+      font-size: 1.35rem;
+      margin-top: 28px;
+      margin-bottom: 12px;
+    }
+    p, li {
+      font-size: 1.05rem;
+    }
+    ul {
+      padding-left: 24px;
+      margin-bottom: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    code {
+      background-color: #f1f5f9;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 0.95em;
+      color: var(--primary);
+    }
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Política de Privacidade – NM Ranching Manager</h1>
+    <div class="meta"><strong>Última atualização:</strong> 7 de novembro de 2026</div>
+
+    <p>Esta Política de Privacidade descreve como o aplicativo <strong>NM Ranching Manager</strong> lida com suas informações. O compromisso central deste aplicativo é garantir total privacidade, segurança e controle dos seus dados por meio de uma arquitetura <strong>100% offline-first</strong>.</p>
+
+    <h2>1. Coleta e Armazenamento Local de Dados</h2>
+    <p>O <strong>NM Ranching Manager</strong> não coleta, transmite, vende ou armazena seus dados em servidores externos mantidos pelo desenvolvedor.</p>
+    <ul>
+      <li><strong>Armazenamento Local:</strong> Todos os dados cadastrados (registros de animais, lotes, ponderais/GMD, manejos sanitários, dados financeiros, insumos, fornecedores e pecuaristas) são gravados exclusivamente no banco de dados local (SQLite) presente no seu dispositivo móvel ou computador.</li>
+      <li><strong>Dados Pessoais:</strong> CPFs, CNPJs, nomes ou contatos cadastrados no aplicativo permanecem estritamente dentro do banco de dados local do seu aplicativo.</li>
+    </ul>
+
+    <h2>2. Integração com o Google Drive (Backup Opcional)</h2>
+    <p>O aplicativo oferece a funcionalidade opcional de backup de dados via Google Drive.</p>
+    <ul>
+      <li><strong>Conexão Direta:</strong> A comunicação ocorre diretamente entre o seu dispositivo e a sua conta pessoal do Google, utilizando as APIs oficiais do Google Drive.</li>
+      <li><strong>Isolamento de Acesso:</strong> O aplicativo utiliza o escopo de permissão restrito (<code>appdata</code> / <code>drive.file</code>), o que significa que ele acessa apenas a pasta ou arquivo de backup criado por ele mesmo. O aplicativo não tem acesso a outros arquivos do seu Google Drive.</li>
+      <li><strong>Sem Intermediários:</strong> Nenhum dado trafega por servidores intermediários do desenvolvedor. O desenvolvedor não possui acesso aos seus backups, senhas ou credenciais do Google.</li>
+    </ul>
+
+    <h2>3. Serviços de Terceiros e Rastreamento</h2>
+    <ul>
+      <li><strong>Sem Rastreadores Comerciais:</strong> O <strong>NM Ranching Manager</strong> não utiliza SDKs de terceiros voltados para publicidade, rastreamento comportamental ou venda de perfis de uso.</li>
+      <li><strong>Telemetria e Diagnóstico de Erros:</strong> Caso o aplicativo utilize serviços nativos das lojas (Google Play ou Apple App Store) para relatórios de falhas (<em>crash logs</em>), tais dados são estritamente anônimos e técnicos (modelo do aparelho, versão do sistema operacional e relatório de erro de código), sem identificação de dados de negócios ou conteúdos digitados pelo usuário.</li>
+    </ul>
+
+    <h2>4. Direitos do Usuário (LGPD – Lei nº 13.709/2018)</h2>
+    <p>Como o armazenamento é integralmente local, o controle dos dados pertence exclusivamente a você:</p>
+    <ul>
+      <li><strong>Acesso e Portabilidade:</strong> Você pode visualizar, alterar ou exportar seus relatórios (PDF/imagens) e arquivos de backup a qualquer momento.</li>
+      <li><strong>Exclusão Definitiva:</strong> Ao utilizar a função de restauração de fábrica no aplicativo, apagar o cache/dados nas configurações do sistema operacional ou desinstalar o aplicativo, todos os dados locais serão permanentemente eliminados. O controle sobre a exclusão dos arquivos mantidos na sua conta do Google Drive é de sua exclusiva responsabilidade.</li>
+    </ul>
+
+    <h2>5. Alterações nesta Política</h2>
+    <p>Esta Política de Privacidade poderá ser atualizada para refletir melhorias no aplicativo ou mudanças regulatórias. Qualquer alteração será acompanhada da revisão da data no topo deste documento.</p>
+
+    <h2>6. Contato para Suporte e Dúvidas</h2>
+    <p>Para dúvidas sobre a arquitetura de dados ou suporte técnico:</p>
+    <p><strong>E-mail de Suporte:</strong> <code>suporte@nmranchingmanager.com.br</code></p>
+
+    <div class="footer">
+      &copy; 2026 NM Ranching Manager. Todos os direitos reservados.
+    </div>
+  </div>
+</body>
+</html>
